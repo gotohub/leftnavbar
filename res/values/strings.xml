@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="button_a">(A) Dismiss</string>
+    <string name="button_b">(B) No dismiss</string>
+    <string name="button_c">(A) clearItems</string>
+    <string name="button_d">(B) setAdapter</string>
+    <string name="button_e">(A) removeItem</string>
+    <string name="button_f">(B) addItem</string>
+
+    <string name="tab_a">My Photos</string>
+    <string name="tab_b">My Friends</string>
+    <string name="tab_c">Home</string>
+    <string name="tab_d">Local Media</string>
+    <string name="tab_e">CoverFlow</string>
+    <string name="tab_f">NumberPicker</string>
+    <string name="tab_g">PageIndicator</string>
+    <string name="tab_h">PokerGroupView</string>
+    <string name="tab_l">Preferences</string>
+    <string name="tab_i">OpenGLCoverFlow</string>
+    <string name="tab_j">MediaCoverFlow</string>
+
+    <string name="list_a">Lincoln</string>
+    <string name="list_b">Obama</string>
+    <string name="list_c">George</string>
+
+    <string name="option_a">Bookmark</string>
+    <string name="option_b">Search</string>
+    <string name="option_c">View public photos</string>
+    <string name="option_d">Account set-up</string>
+    <string name="option_e">Home screen set-up</string>
+    <string name="option_d_1">Foo</string>
+    <string name="option_d_2">Bar</string>
+    <string name="option_d_3">Blah</string>
+
+    <string name="mode_title">Something is going on over here</string>
+    <string name="mode_subtitle">Are you ready for it?</string>
+    <string name="mode_option_a">Foo</string>
+    <string name="mode_option_b">Bar</string>
+    <string name="mode_option_c">Blah</string>
+
+    <string name="button_indeterminate_progress">Indeterminate progress</string>
+    <string name="button_progress">Progress</string>
+    <string name="button_icons">Icons</string>
+    <string name="button_mix">Mix</string>
+    <string name="button_wallpaper">Wallpaper</string>
+    <string name="button_dialog_title">Dialog with title bar</string>
+    <string name="button_custom_title">Custom title</string>
+    <string name="title_text">Insert joke here</string>
+    <string name="subtitle_text">This is supposed to be a very good joke</string>
+
+    <string name="header_title">Title bar</string>
+    <string name="button_title_show">Show/hide</string>
+    <string name="button_subtitle">Subtitle</string>
+    <string name="button_show_progress">Show progress</string>
+
+    <string name="header_navigation">Navigation</string>
+    <string name="button_navigation_standard">Standard</string>
+    <string name="button_navigation_tabs">Tabs</string>
+    <string name="button_navigation_list">List</string>
+    <string name="button_custom_tabs">Custom tabs</string>
+
+    <string name="header_options">Options menu</string>
+    <string name="button_options_show">With/without</string>
+    <string name="button_options_always">Show always</string>
+
+    <string name="header_behavior">Behavior</string>
+    <string name="button_behavior_expanded">Collapsed/expanded</string>
+    <string name="button_behavior_focus">Expand on focus</string>
+
+    <string name="header_home">Home button</string>
+    <string name="button_home_show">Show/hide</string>
+    <string name="button_home_use_logo">Logo/icon</string>
+    <string name="button_home_as_up">As up</string>
+    <string name="button_home_use_logo_on_expand">Logo on expand</string>
+
+    <string name="header_misc">Miscellaneous</string>
+    <string name="button_misc_background">Custom background</string>
+    <string name="button_misc_custom_view">Custom view</string>
+
+    <string name="header_custom_view">Custom view</string>
+    <string name="button_cv_size">Size</string>
+    <string name="button_cv_hgravity">Horizontal gravity</string>
+    <string name="button_cv_vgravity">Vertical gravity</string>
+
+    <string name="shortcut_list">[Escape] go back to this screen\n[1], [2] fake backgrounds\n[n]/[m] show/hide the Left Navigation Bar</string>
+
+    <!-- Action menu -->
+    <string name="header_icons">Icons</string>
+    <string name="button_with_icons">On/off</string>
+    <string name="header_number_items">Number of items</string>
+    <string name="button_item1">1</string>
+    <string name="button_item3">3</string>
+    <string name="button_item5">5</string>
+    <string name="button_item10">10</string>
+    <string name="header_action_view">Action view</string>
+    <string name="button_with_action">On/off</string>
+    <string name="header_checkable">Checkable item</string>
+    <string name="button_checkable">On/off</string>
+
+    <string name="button_post_messages">Event messages</string>
+
+    <!-- Action Bar -->
+    <string name="leftnav_bar_option_label">Options</string>
+
+    
+    <string name="test_pageindicator1">single page indicator</string>
+    <string name="test_pageindicator2">mutilpe page indicator</string>
+    <string name="test_pageindicator3">after page change</string>
+    
+    <string name="show_numberIndicator">show</string>
+    <string name="hide_numberIndicator">hide</string>
+    <string name="menu_back">back</string>
+    
+    <string-array name="city_array">
+        <item >HangZhou</item>
+        <item >ChangSha</item>
+        <item >NanChang</item>
+    </string-array>
+    
+    <string-array name="toggle_array">
+        <item >auto</item>
+        <item >mannual</item>
+    </string-array>
+    
+    
+        <string name="lib_leftnav_bar_option_label">Options</string>
+    <string name="lib_leftnav_bar_settings_label">Settings</string>
+    
+    <string name="playcontrol">playcontrol</string>
+    <string name="playing">playing</string>
+    <string name="hotplay">hotplay</string>
+    <string name="mySave">mySave</string>
+    <string name="copyright">"tv powered by alibaba"</string>
+    
+     <string name="string_1111">1111</string>
+     <string name="openmeeting">openmeeting</string>
+     
+     <string name="preferenceIconDesc">preferenceIconDesc</string>
+     <string name="btn_alert_dialog">Alert Dialog</string>
+     <string name="btn_progressbar">Progressbar</string>
+     <string name="top_search_string">Search</string>
+     <string name="top_text_nav_activity">TopTextNavActivity</string>
+     
+     <string name="scroll2_random">scroll to random</string>
+     <string name="scroll2_first">scroll to first</string>
+     <string name="scroll2_last">scroll to last</string>
+     <string name="scroll_auto_start">start auto scroll</string>
+     <string name="scroll_auto_stop">stop auto scroll</string>
+     
+     <string name="menu_settings">Settings</string>
+</resources>

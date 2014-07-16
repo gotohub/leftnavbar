@@ -1,0 +1,131 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <LinearLayout
+        android:id="@+id/layout_top_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="24dp"
+        android:paddingTop="24dp">
+
+        <ImageButton
+            android:id="@+id/imgbtn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tui_ic_btn_back"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_control_wrap"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/tui_mediacontroller_bottomshadow"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingBottom="10dp" >
+
+        <LinearLayout
+            android:id="@+id/linear_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tv_time_current"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textColor="#FF999999"
+                android:layout_gravity="center" 
+                android:textSize="16sp" >
+            </TextView>
+
+            <SeekBar
+                android:id="@+id/main_seekbar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0.0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="1000"
+                android:maxHeight="40dp"
+                android:minHeight="40dp"
+                android:progress="0"
+                android:progressDrawable="@drawable/tui_progressbar"
+                android:secondaryProgress="0"
+                android:thumb="@drawable/tui_ic_mediacontroller_indicator" />
+
+            <TextView
+                android:id="@+id/tv_time_total"
+                 android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:textColor="#FF999999"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_control_main"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" >
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:textColor="#FF999999"
+                android:textSize="24sp"
+                android:visibility="gone" 
+                android:layout_marginLeft="46dp"/>
+
+            <ImageButton
+                android:id="@+id/imgbtn_pause_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/tui_ic_mediacontroller_pause"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/imgbtn_pre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="80dp"
+                android:layout_toLeftOf="@id/imgbtn_pause_play"
+                android:background="@android:color/transparent"
+                android:src="@drawable/tui_ic_mediacontroller_prev"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/imgbtn_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_toRightOf="@id/imgbtn_pause_play"
+                android:background="@android:color/transparent"
+                android:src="@drawable/tui_ic_mediacontroller_next"
+                tools:ignore="ContentDescription" />
+
+            <LinearLayout
+                android:id="@+id/play_mode"
+                android:layout_width="240dp"
+                android:layout_height="72dp"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="120dp" >
+
+               
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

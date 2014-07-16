@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yunos.demo" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/app_icon"
+        android:label="LeftNavBarDemo"
+        android:logo="@drawable/app_logo"
+        android:theme="@yunos:style/Theme.Ali.TV" >
+        <activity
+            android:name="TextNavActivity"
+            android:icon="@drawable/activity_icon"
+            android:label="LeftNavBarDemo"
+            android:launchMode="singleTask"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="TopTextNavActivity"
+            android:icon="@drawable/activity_icon"
+            android:label="TopLeftNavBarDemo"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
+            android:theme="@yunos:style/Theme.Ali.TV" >
+        </activity>
+        <activity
+            android:name="TextActivity"
+            android:icon="@drawable/activity_icon"
+            android:label="TextDemo"
+            android:launchMode="singleTask"
+            android:taskAffinity="" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="PlayerActivity"
+            android:icon="@drawable/activity_icon"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+        </activity>
+        <activity
+            android:name="PreferencesDemo"
+            android:label="PreferencesDemo"
+            android:theme="@yunos:style/Theme.Ali" />
+        <activity
+            android:name="SettingActivity"
+            android:label="SettingActivity" />
+        <activity
+            android:name="ResourcesDemo"
+            android:label="ResourcesDemo"
+            android:theme="@yunos:style/Theme.Ali" />
+        <activity
+            android:name=".resource.FontDemo"
+            android:label="FontDemo"
+            android:theme="@yunos:style/Theme.Ali" />
+        <activity
+            android:name=".resource.IconDemo"
+            android:label="IconDemo" />
+        <activity
+            android:name="yunos.demo.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name="yunos.demo.FocusRelativelayoutDemo"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name="yunos.demo.PageFocusGridViewDemo"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name="yunos.demo.PageFocusRelativelayoutDemo"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name="yunos.demo.FocusedGridViewDemo"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|adjustResize" >
+        </activity>
+        <!--
+        <activity
+            android:name=".CoverflowFocusedGridViewDemo"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|adjustResize" >
+        </activity>
+        -->
+
+    </application>
+
+</manifest>

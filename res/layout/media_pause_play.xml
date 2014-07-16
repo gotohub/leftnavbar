@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_media_center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <ImageView
+        android:id="@+id/img_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="@drawable/tui_ic_mediacontroller_filmpause"
+        tools:ignore="ContentDescription" />
+
+    <!-- 
+    <ImageView
+        android:id="@+id/img_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="@drawable/tui_ic_mediacontroller_filmplay"
+        tools:ignore="ContentDescription" />
+    -->
+
+</FrameLayout>

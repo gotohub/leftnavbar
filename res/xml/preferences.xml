@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:yunos="http://schemas.android.com/apk/res/yunos">
+    <yunos.tv.preference.SelectorPreference
+        android:entries="@array/city_array"
+        android:key="SelectorPreference"
+        android:title="SelectorPreference" />
+
+    <yunos.tv.preference.SimplePreference
+        android:key="SimplePreference"
+        android:title="SimplePreference"
+        yunos:statusText="default statusText" />
+
+    <yunos.tv.preference.RightTextStatusPreference
+        android:icon="@drawable/icon"
+        android:key="rightTextStatusPreference"
+        android:title="rightTextStatusPreference"
+        yunos:progressBarVisibility="true"
+        yunos:statusText="default statusText" />
+
+    <yunos.tv.preference.IconPreferenceScreen
+        android:key="IconPreferenceScreen"
+        android:title="IconPreferenceScreen"
+        yunos:statusText="default statusText" />
+
+    <yunos.tv.preference.TSeekBarPreference
+        android:key="TSeekBarPreference"
+        android:max="10"
+        android:title="TSeekBarPreference" />
+
+    <yunos.tv.preference.TogglePreference
+        android:entries="@array/toggle_array"
+        android:key="TogglePreference"
+        android:title="TogglePreference" />
+    
+    <yunos.tv.preference.SimplePreference
+        android:dependency="TogglePreference"
+        android:key="childPreference"
+        android:title="childPreference"
+        yunos:statusText="default statusText" />
+
+</PreferenceScreen>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:yunos="http://schemas.android.com/apk/res/yunos" 
+    android:orientation="vertical" android:gravity="center"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	>
+	<yunos.tv.widget.CoverFlow
+        android:id="@+id/coverflow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        yunos:imageWidth="500dp"
+        yunos:imageHeight="200dp"
+        android:paddingBottom="60dp"
+        android:paddingTop="10dp" />
+	<LinearLayout android:orientation="horizontal" android:gravity="center"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:id="@+id/btn1"  android:text="@string/scroll2_random"/>
+	    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:id="@+id/btn2"  android:text="@string/scroll2_first"/>
+	    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:id="@+id/btn3"  android:text="@string/scroll2_last"/>
+<!-- 	    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" -->
+<!-- 	        android:id="@+id/btn4"  android:text="@string/button_f"/> -->
+    </LinearLayout>
+    
+	<LinearLayout android:orientation="horizontal" android:gravity="center"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:id="@+id/btn5"  android:text="@string/scroll_auto_start"/>
+	    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:id="@+id/btn6"  android:text="@string/scroll_auto_stop"/>
+    </LinearLayout>
+    
+	<TextView  android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:padding="5dip" android:id="@+id/statusText" />
+
+</LinearLayout>

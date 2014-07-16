@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:tag="firstLinearLayout">
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="80dp" 
+	    android:orientation="horizontal"
+	    android:tag="secondLinearLayout">
+	    
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:orientation="horizontal" 
+	         android:background="#FFF00000"
+	         android:minWidth="50dp"
+	         android:gravity="center"
+	         android:tag="homeLinearLayout" >
+	         <Button
+	             android:id="@+id/menu_back"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/menu_back"
+	            android:textSize="16sp"
+	            android:tag="menu_back" />
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:background="#FFa00000"
+	        android:orientation="horizontal"
+	        android:gravity="center"
+	        android:tag="nextLinearlayout"
+	         >
+	         <yunos.widget.HorizontalListView
+	             android:id="@+id/list"         
+	           android:layout_width="wrap_content"
+	        	 android:layout_height="wrap_content"
+	        	 android:tag="horizontalListView"
+	        	  />
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:orientation="horizontal"
+	        android:background="#FF000000" 
+	        android:minWidth="50dp"
+	        android:gravity="center"
+	        android:tag="thirdLinearLayout">
+	        <TextView android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/option_a" 
+	            android:textSize="16sp"
+	            android:tag="option_a"/>
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/option_b"
+	            android:textSize="16sp"
+	            android:tag="option_b" />
+	
+	    </LinearLayout>
+	
+	</LinearLayout>
+	<yunos.widget.HorizontalListView
+	    android:id="@+id/list1"         
+	           android:layout_width="match_parent"
+	        	 android:layout_height="wrap_content"
+	        	 android:background="#FF000000"
+	android:tag="horizotanl111" />
+	<LinearLayout android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#FFFFFFFF">
+	     <TextView android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="@string/button_a"/>
+	     <EditText android:layout_width="200dp"
+	         android:layout_height="wrap_content"
+	         android:tag="exitText111"/>
+	</LinearLayout>
+	<yunos.widget.HorizontalListView
+	    android:id="@+id/list2"         
+	           android:layout_width="match_parent"
+	        	 android:layout_height="wrap_content"
+	        	 android:background="#FF000000"
+	        	 android:tag="horizontal23344"/>
+</LinearLayout>
